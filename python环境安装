@@ -2,6 +2,7 @@ Anaconda安装
 一键安装Anaconda3-4.2.0-Windows-x86_64（包含jupyter notebook）
 Conda学习
 conda install
+在终端中输入命令 condal list ，如果Anaconda被成功安装，则会显示已经安装的包名和版本号
 conda list
 pycharm安装
 Tensorflow安装（CPU和GPU版本）

@@ -19,3 +19,14 @@ cudnn安装
 其实安装了cuda之后，就已经起到了GPU加速的效果，只不过cudnn是NVIDA为了深度学习特地制作的GPU加速toolkit。
 将cudnn解压缩后，将bin,include,lib三个文件复制到C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0下（将原来的同名三个文件替换）
 再输入conda install tensorflow-gpu
+2019-04-04 22:42:01.209000: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX AVX2
+2019-04-04 22:42:01.639000: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1405] Found device 0 with properties: 
+name: GeForce GTX 1060 3GB major: 6 minor: 1 memoryClockRate(GHz): 1.7335
+pciBusID: 0000:01:00.0
+totalMemory: 3.00GiB freeMemory: 2.37GiB
+2019-04-04 22:42:01.661000: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1484] Adding visible gpu devices: 0
+2019-04-04 22:42:07.069000: I tensorflow/core/common_runtime/gpu/gpu_device.cc:965] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-04-04 22:42:07.069000: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971]      0 
+2019-04-04 22:42:07.069000: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 0:   N 
+2019-04-04 22:42:07.110000: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 2058 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1060 3GB, pci bus id: 0000:01:00.0, compute capability: 6.1)
+成功安装

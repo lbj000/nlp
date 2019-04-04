@@ -1,1 +1,20 @@
-
+Anaconda安装
+一键安装Anaconda3-4.2.0-Windows-x86_64（包含jupyter notebook）
+Conda学习
+conda install
+conda list
+pycharm安装
+Tensorflow安装（CPU和GPU版本）
+conda install tensorflow
+GPU版本所需环境和软件：
+Cuda8.0下载地址https://developer.nvidia.com/cuda-80-download-archive
+Cudnn下载地址：https://developer.nvidia.com/rdp/cudnn-download
+TensorFlow-gpu1.1下载地址：https://www.lfd.uci.edu/~gohlke/pythonlibs
+cuda8.0安装
+进入上面的网址，选择适应条件的版本（例如OS，cuda8.0/9.0）
+点击安装，一路next…（Windows就这点好!!!）
+cudnn安装
+进入网页后（要先注册，有个survey要填），选择对应cuda版本的cudnn下载，切记！
+其实安装了cuda之后，就已经起到了GPU加速的效果，只不过cudnn是NVIDA为了深度学习特地制作的GPU加速toolkit。
+将cudnn解压缩后，将bin,include,lib三个文件复制到C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0下（将原来的同名三个文件替换）
+再输入conda install tensorflow-gpu

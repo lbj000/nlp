@@ -27,6 +27,7 @@
       1.分词结果相同，可以返回任何一个
       2.分词结果不同，返回单字数比较少的那个
   1.2 词、字符频率统计
+  ![img](https://github.com/lbj000/nlp/blob/master/%E5%9B%BE%E7%89%871.jpg)
     from collections import Counter
     a = 'hello大家好,我的名字是lbj！请多多指教。'
     counter = Counter(a)
@@ -48,3 +49,4 @@
     trigram形式为：西安交/安交通/交通大/通大学
   2.2 unigram、bigram频率统计
     
+![img](https://github.com/lbj000/nlp/blob/master/%E5%9B%BE%E7%89%872.jpg)

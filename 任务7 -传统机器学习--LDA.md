@@ -26,3 +26,6 @@
 3. LDA优缺点   
 4. LDA 参数学习   
 5. 使用LDA生成主题特征，在之前特征的基础上加入主题特征进行文本分类  
+    ![img](https://github.com/lbj000/nlp/blob/master/向量化.png)  
+    ![img](https://github.com/lbj000/nlp/blob/master/topic_word.png)  
+    ![img](https://github.com/lbj000/nlp/blob/master/Document-Topic.png)  

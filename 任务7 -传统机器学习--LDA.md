@@ -16,6 +16,7 @@
     参数都是随机变量，怎么能没有先验分布呢？于是，类似于对 Unigram Model 的贝叶斯改造，我们也可以如下在两个  
     骰子参数前加上先验分布从而把 PLSA 对应的游戏过程改造为一个贝叶斯的游戏过程。由于φ→k和θ→m都对应到多项分布，所以  
     先验分布的一个好的选择就是Drichlet分布，于是我们就得到了 LDA(Latent Dirichlet Allocation)模型。  
+    
     ![img](https://github.com/lbj000/nlp/blob/master/game-lda-1.jpg)  
     ![img](https://github.com/lbj000/nlp/blob/master/lda-dice.jpg)  
 2. LDA应用场景   

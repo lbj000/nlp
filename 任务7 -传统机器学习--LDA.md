@@ -6,6 +6,8 @@
     谈论计算机，我们容易想到的词是： 内存、硬盘、编程、二进制、对象、算法、复杂度…；  
     我们之所以能马上想到这些词，是因为这些词在对应的主题下出现的概率很高。我们可以很自然的看到，  
     一篇文章通常是由多个主题构成的、而每一个主题大概可以用与该主题相关的频率最高的一些词来描述。  
+    ![img](https://github.com/lbj000/nlp/blob/master/game-plsa.jpg)  
+    ![img](https://github.com/lbj000/nlp/blob/master/plsa-doc-topic-word.jpg)  
 2. LDA应用场景   
 3. LDA优缺点   
 4. LDA 参数学习   

@@ -10,7 +10,7 @@
     ![img](https://github.com/lbj000/nlp/blob/master/game-plsa.jpg)  
     ![img](https://github.com/lbj000/nlp/blob/master/plsa-doc-topic-word.jpg)  
     共轭先验分布  
-    在贝叶斯统计中，如果后验分布与先验分布属于同类，则先验分布与后验分布被称为共轭分布，而先验分布被称为似然函数的共轭先验。
+    在贝叶斯统计中，如果后验分布与先验分布属于同类，则先验分布与后验分布被称为共轭分布，而先验分布被称为似然函数的共轭先验。  
     LDA主题模型原理  
 2. LDA应用场景   
 3. LDA优缺点   
